@@ -5,7 +5,7 @@ function PageHeader() {
   return (
     <div>
       {/* Code block starts */}
-      <div className="my-6  container pt-6 px-6 mx-auto flex flex-col md:flex-row items-start md:items-center justify-between pb-4  border-gray-300">
+      
         <div></div>
         <div class="flex items-center space-x-4">
           <Image
@@ -21,7 +21,7 @@ function PageHeader() {
         </div>
         {/* Code block ends */}
       </div>
-    </div>
+    
   );
 }
 

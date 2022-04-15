@@ -1,14 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@layer base {
-  html {
-    font-family: Raleway;
-  }
+@font-face {
+  font-family: "RalewaySemibold";
+  src: url("../assets/fonts/Raleway-SemiBold.ttf");
+}
+@font-face {
+  font-family: "RalewayRegular";
+  src: url("../assets/fonts/Raleway-Regular.ttf");
 }
 html,
 body {
-  background-color: #0B2635;
+  background-color: #ffffff;
   padding: 0;
   margin: 0;
   font-family: -apple-system,Raleway, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,

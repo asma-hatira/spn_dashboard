@@ -1,4 +1,4 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -7,14 +7,18 @@ module.exports = {
   theme: {
     colors: {
       'sidebarblue' : '#0B2635',
-      'sidebargraytext' : '#A5A5A5'
+      'sidebargraytext' : '#A5A5A5',
+      'gold': '#C19A51',
+      'formgray' :'#ACACAC'
+      
       
     },
     fontFamily: {
-      'sans' : ['Proxima Nova',
-      ...defaultTheme.fontFamily.sans,
-    ],
-      }
-
-  }
-}
+      'Raleway': ['RalewaySemiBold','RalewayRegular'],
+      
+  },
+  plugins: [
+    require('@tailwindcss/forms'),
+    // ...
+  ],
+}}

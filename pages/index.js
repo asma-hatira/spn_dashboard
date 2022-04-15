@@ -9,8 +9,9 @@ export default function Home() {
     <div className=" h-screen overflow-hidden">
     
       <main>
-      {/*<Testbar></Testbar>*/}
-      <div><PageHeader></PageHeader></div>
+     <div className='justify-end'>
+       <Testbar></Testbar></div>
+      
       
       </main>
     </div>
